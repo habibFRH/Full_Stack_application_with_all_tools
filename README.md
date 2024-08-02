@@ -31,7 +31,7 @@ This repository includes projects and examples using the following technologies:
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/habibFRH/Software_engeneer_learning.git
+   git clone https://github.com/habibFRH/Software_Engineering_learning.git
    cd Software_engeneer_learning
 
    Install dependencies
