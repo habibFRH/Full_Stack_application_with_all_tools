@@ -1,0 +1,32 @@
+server:
+  port: 8080
+  error:
+    whitelabel:
+      enabled: false
+    path: /error
+    include-stacktrace: never
+
+spring:
+  main:
+    web-application-type: servlet
+  datasource:
+    url: jdbc:postgresql://localhost:5432/customer
+    username: MohamedFrh
+    password: khouyafiras28
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+    # validate-on-migrate: false
+    repair: true
+    repair-on-migrate: true
+    
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true

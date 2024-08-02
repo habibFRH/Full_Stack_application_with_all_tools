@@ -1,0 +1,1 @@
+ALTER Table customer ADD CONSTRAINT cst_emailUnique UNIQUE (email);
