@@ -1,15 +1,15 @@
 package com.firstApp;
 
-import java.util.Random;
+// import java.util.Random;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import com.firstApp.person.PersonRepository;
-import com.github.javafaker.Faker;
-import com.github.javafaker.Name;
-import com.firstApp.person.Person;
+// import com.github.javafaker.Faker;
+// import com.github.javafaker.Name;
+// import com.firstApp.person.Person;
 
 @SpringBootApplication
 public class Main {
