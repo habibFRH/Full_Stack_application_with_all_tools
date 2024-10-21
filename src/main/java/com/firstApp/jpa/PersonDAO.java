@@ -1,10 +1,13 @@
-package com.firstApp.person;
+package com.firstApp.jpa;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+
+import com.firstApp.person.Person;
+import com.firstApp.person.PersonDAOInterface;
 
 @Repository("jpa")
 public class PersonDAO implements PersonDAOInterface {

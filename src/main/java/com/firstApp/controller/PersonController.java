@@ -1,4 +1,4 @@
-package com.firstApp.person;
+package com.firstApp.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -11,6 +11,11 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.firstApp.person.Person;
+import com.firstApp.person.PersonRegistrationRequest;
+import com.firstApp.person.PersonValidationRuequest;
+import com.firstApp.service.PersonService;
 
 // APIs :
 // get all the persons (GET) : localhost:8080/api/v1/persons

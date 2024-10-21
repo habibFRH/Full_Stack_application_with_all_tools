@@ -1,4 +1,4 @@
-package com.firstApp.person;
+package com.firstApp.jdbcTemplate;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,6 +6,10 @@ import java.util.Optional;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import org.springframework.stereotype.Repository;
+
+import com.firstApp.person.Person;
+import com.firstApp.person.PersonDAOInterface;
+import com.firstApp.person.PersonRowMapper;
 
 @Repository("jdbc")
 public class PersonJDBCDataAccessService implements PersonDAOInterface {

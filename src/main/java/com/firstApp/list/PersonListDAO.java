@@ -1,10 +1,13 @@
-package com.firstApp.person;
+package com.firstApp.list;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.stereotype.Repository;
+
+import com.firstApp.person.Person;
+import com.firstApp.person.PersonDAOInterface;
 
 @Repository("list")
 public class PersonListDAO implements PersonDAOInterface {
